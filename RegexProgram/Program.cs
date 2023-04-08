@@ -1,3 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.ReadLine();
+﻿using RegexProgram;
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Regex Program");
+        SimpleDemo.SimpleRegexDemo();
+        Console.ReadLine();
+    }
+}
