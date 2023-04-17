@@ -6,7 +6,7 @@ internal class Program
     {
         Console.WriteLine("Regex Program");
         Console.WriteLine("Choose any one option");
-        Console.WriteLine("\n1:Simple demo\n2:Lower case with underscore\n3:Find HTML tags\n4:Find Occurance");
+        Console.WriteLine("\n1:Simple demo\n2:Lower case with underscore\n3:Find HTML tags\n4:Find Occurance\n5:Image type check");
         int option = Convert.ToInt32(Console.ReadLine());
         switch (option)
         {
@@ -22,6 +22,9 @@ internal class Program
                 break;
             case 4:
                 Occuarance.FindOccuarance();
+                break;
+            case 5:
+                ImageType.CheckImageType();
                 break;
         }
         Console.ReadLine();
