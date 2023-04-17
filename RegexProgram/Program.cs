@@ -6,7 +6,7 @@ internal class Program
     {
         Console.WriteLine("Regex Program");
         Console.WriteLine("Choose any one option");
-        Console.WriteLine("\n1:Simple demo\n2:Lower case with underscore\n3:Find HTML tags\n4:Find Occurance\n5:Image type check");
+        Console.WriteLine("\n1:Simple demo\n2:Lower case with underscore\n3:Find HTML tags\n4:Find Occurance\n5:Image type check\n6:check urls");
         int option = Convert.ToInt32(Console.ReadLine());
         switch (option)
         {
@@ -25,6 +25,9 @@ internal class Program
                 break;
             case 5:
                 ImageType.CheckImageType();
+                break;
+            case 6:
+                URLFormate.CheckURLFormate();
                 break;
         }
         Console.ReadLine();
